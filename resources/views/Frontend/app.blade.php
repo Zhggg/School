@@ -100,11 +100,11 @@
                 <h1 style="font-size: 30px; color: var(--Secondary-text);">School Template</h1>
             </div>
             <div class="navbar">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Gallery</a>
-                <a href="">Events</a>
-                <a href="">Facilities</a>
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/gallery">Gallery</a>
+                <a href="/events">Events</a>
+                <a href="/facilities">Facilities</a>
             </div>
         </div>
     </div>
@@ -112,7 +112,7 @@
     @yield('content')
 
     <!-- footer -->
-    <div class="footer" style="background-color: var(--secondary-color);">
+    <div class="footer" style="background-color: var(--primary-color);">
         <div class="container">
             <div class="name" style="font-size: 40px; color: var(--Secondary-text); padding: 15px 0px;"><b>School Template</b></div>
             <a href="mailto:schooltemplate@gmail.com" style="padding: 15px 0px; font-family: Arial; font-size: 16px; "><i>Schooltemplate@gmail.com</i></a>
