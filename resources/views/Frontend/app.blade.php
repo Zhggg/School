@@ -25,7 +25,7 @@
             justify-content: space-between;
             align-items: center;
             padding: 5px 55px;
-            font-family: arial;
+            font-family: Georgia;
             font-size: 14px;
             color: #ffff;
         }
@@ -41,8 +41,8 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 5px 50px;
-            font-family: arial;
+            padding: 10px 50px;
+            font-family: Georgia;
             color: #fff;
         }
 
@@ -50,7 +50,7 @@
             text-decoration: none;
             color: white;
             font-size: 18px;
-            padding: 0px 30px;
+            padding: 5px 30px;
         }
 
         .mainmenu a:hover{
@@ -59,16 +59,16 @@
 
         /*footer*/
         .footer .container{
-            font-family: arial;
+            font-family: Georgia;
             color: #fff;
             text-align: center;
-            padding: 20px 0px;
+            padding: 0px 0px;
         }
 
         .footer a{
             text-decoration: none;
             color: white;
-            font-family: Arial;
+            font-family: Georgia;
             font-size: 20px;
             padding: 0px 5px;
         }
@@ -76,6 +76,21 @@
         .footer a:hover{
             color: var(--secondary-text);
         }
+        /*icon
+        .icon i{
+            font-size: 30px; 
+            background-color: var(--secondary-color);
+            border-radius: 100%;
+            color: white;
+            text-align: center;
+            width: 70px;
+            height: 70px;
+        }
+
+        .icon i:hover{
+            color: var(--secondary-text);
+        }
+        */
     </style>
     <!-- fontawesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
@@ -86,10 +101,10 @@
         <div class="container">
             <div class="address"><address>Itahari-2 Tarahara</address></div>
             <div class="menu"style="margin-right: 15px;">
-                <a href="">Career</a>
-                <a href="">Blog</a>
-                <a href="">Contact</a>
-                <a href="">Exam Result</a>
+                <a href="/career">Career</a>
+                <a href="/blog">Blog</a>
+                <a href="/contact">Contact</a>
+                <a href="/result">Exam Result</a>
             </div>
         </div>
     </div>
@@ -108,6 +123,20 @@
             </div>
         </div>
     </div>
+
+    <!-- icon
+    <div class="icon">
+        <div class="container" style="text-align: right; padding: 100px, 0px;">
+            <div class="phone">
+                <a href=""><i class="fas fa-phone-volume" style="color: white; padding: 20px;"></i></a>
+            </div>
+            <div class="question">
+                <a href=""><i class="fas fa-question" style="color: white; padding: 20px;"></i></a>
+            </div>
+        </div>
+    </div>
+     -->
+
     <!-- main content -->
     @yield('content')
 
@@ -115,15 +144,15 @@
     <div class="footer" style="background-color: var(--primary-color);">
         <div class="container">
             <div class="name" style="font-size: 40px; color: var(--Secondary-text); padding: 15px 0px;"><b>School Template</b></div>
-            <a href="mailto:schooltemplate@gmail.com" style="padding: 15px 0px; font-family: Arial; font-size: 16px; "><i>Schooltemplate@gmail.com</i></a>
+            <a href="mailto:schooltemplate@gmail.com" style="padding: 15px 0px; font-family: Arial; font-size: 16px;"><i>Schooltemplate@gmail.com</i></a>
             <div class="address" style="padding: 15px 0px;"><address>Itahari-2 Tarahara</address></div>
             <div class="connect" style="padding: 15px 0px;">
-                <h5 style="font-family: Arial; font-size: 25px;">Stay Connected</h5>
+                <h5 style="font-family: Georgia; font-size: 25px;">Stay Connected</h5>
                 <div style="padding: 15px 0px;">
-                    <a href=""><i class="fab fa-facebook"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://en.wikipedia.org/wiki/History_of_Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://en.wikipedia.org/wiki/Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://en.wikipedia.org/wiki/Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://en.wikipedia.org/wiki/WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
             <div class="copyright" style="padding: 15px 0px;">

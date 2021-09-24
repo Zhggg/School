@@ -32,3 +32,19 @@ Route::get('/events', function () {
 Route::get('/facilities', function() {
     return view('Frontend.pages.facilities');
 });
+
+Route::get('/career', function(){
+    return view('Frontend.topmenu.career');
+});
+
+Route::get('/blog', function(){
+    return view('Frontend.topmenu.blog');
+});
+
+Route::get('/contact', function(){
+    return view('Frontend.topmenu.contact');
+});
+
+Route::get('/result', function(){
+    return view('Frontend.topmenu.result');
+});
