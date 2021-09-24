@@ -31,6 +31,11 @@
         box-shadow: 0px 0px 5px 5px #0099ff85;
     }
 
+    .question{
+        position: fixed;
+        right: 10px;
+    }
+
     /*Second Content*/
 
     .about h1{
@@ -547,12 +552,16 @@
 @section('content')
 <!-- first content  -->
 <div class="image" style="background-image: url('https://source.unsplash.com/1700x900/?school,students');">
-    <div class="container" >
-        <div class="phone" style="padding: 15px 10px;">
-            <a href="+9779827089088" target="_blank"><i class="fas fa-phone-volume" style="padding: 20px;"></i></a>
-        </div>
+    <div class="container">
         <div class="question" style="padding: 15px 10px;">
-            <a href="/contact" target="_blank"><i class="fas fa-question" style="padding: 20px;"></i></a>
+            <div>
+                <div style="padding: 10px 0px;">
+                    <a href="+9779827089088" target="_blank"><i class="fas fa-phone-volume" style="padding: 20px;"></i></a>
+                </div>
+                <div style="padding: 10px 0px;">
+                    <a href="/contact" target="_blank"><i class="fas fa-question" style="padding: 20px;"></i></a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
